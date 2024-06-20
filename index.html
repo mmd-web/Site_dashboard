@@ -99,10 +99,13 @@
                         <div id="offcanvasNavbar" class="offcanvas offcanvas-start overflow-y-auto">
                             
                             <div id="side-bar-box" class="d-flex flex-column shadow h-100 d-xl-none" style="width: inherit; position: fixed;">
-                                <a href="#" class="text-decoration-none d-flex gap-3 align-items-center text-dark mt-2">
-                                    <img src="img/logo.webp" alt="" width="70">
-                                    <span class="font-vazir fs-4">سلام دنیا</span>
-                                </a>
+                                <div class="d-flex justify-content-between align-items-center px-4">
+                                    <a href="#" class="text-decoration-none d-flex gap-3 align-items-center text-dark mt-2">
+                                        <img src="img/logo.webp" alt="" width="70">
+                                        <span class="font-vazir fs-4">سلام دنیا</span>
+                                    </a>
+                                    <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+                                </div>
                                 <hr class="mx-auto" style="width: 85%;">
                                 <ul id="list-box" class="nav nav-pills d-block mb-auto">
                                     <li class="font-vazir nav-item">
@@ -296,6 +299,96 @@
                                         </svg>
                                     </a>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="border border-2 border-secondary border-opacity-25 mt-4 rounded-2">
+                            <div class="p-2 border-bottom border-secondary border-opacity-25">
+                                <span class="font-vazir fs-4">وضعیت</span>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-borderless">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-nowrap font-vazir">#</th>
+                                            <th class="text-nowrap font-vazir">دوره</th>
+                                            <th class="text-nowrap font-vazir">مدرس</th>
+                                            <th class="text-nowrap font-vazir">تصویر</th>
+                                            <th class="text-nowrap font-vazir">شروع</th>
+                                            <th class="text-nowrap font-vazir">وضعیت</th>
+                                            <th class="text-nowrap font-vazir">درصد یادگیری</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="text-nowrap font-vazir">بوت استرپ 5</td>
+                                            <td class="text-nowrap font-vazir">مهرشاد براتی</td>
+                                            <td>
+                                                <img src="img/user.jpg" class="rounded-circle" width="32" height="32" alt="">
+                                            </td>
+                                            <td class="text-nowrap font-vazir">10 بهمن</td>
+                                            <td>
+                                                <span class="badge bg-success rounded-pill font-vazir">گذرانده شده</span>
+                                            </td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-success font-vazir" style="width: 100%;">100%</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td class="text-nowrap font-vazir">جاوااسکریپت</td>
+                                            <td class="text-nowrap font-vazir">مهرشاد براتی</td>
+                                            <td>
+                                                <img src="img/user.jpg" class="rounded-circle" width="32" height="32" alt="">
+                                            </td>
+                                            <td class="text-nowrap font-vazir">12 اسفند</td>
+                                            <td>
+                                                <span class="badge bg-danger rounded-pill font-vazir">گذرانده نشده</span>
+                                            </td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-danger font-vazir" style="width: 1;">0%</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td class="text-nowrap font-vazir">پایتون</td>
+                                            <td class="text-nowrap font-vazir">مهرشاد براتی</td>
+                                            <td>
+                                                <img src="img/user.jpg" class="rounded-circle" width="32" height="32" alt="">
+                                            </td>
+                                            <td class="text-nowrap font-vazir">12 اسفند</td>
+                                            <td>
+                                                <span class="badge bg-warning rounded-pill font-vazir">در حال یادگیری</span>
+                                            </td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-warning font-vazir" style="width: 30%;">30%</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td class="text-nowrap font-vazir">سی اس اس</td>
+                                            <td class="text-nowrap font-vazir">مهرشاد براتی</td>
+                                            <td>
+                                                <img src="img/user.jpg" class="rounded-circle" width="32" height="32" alt="">
+                                            </td>
+                                            <td class="text-nowrap font-vazir">12 اسفند</td>
+                                            <td>
+                                                <span class="badge bg-info rounded-pill font-vazir">در حال یادگیری</span>
+                                            </td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-info font-vazir" style="width: 40%;">40%</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
